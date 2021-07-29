@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "monolog/monolog": "^2.20"
+        "monolog/monolog": "dev-main"
     },
     "autoload": {
         "psr-4": {

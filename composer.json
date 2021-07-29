@@ -1,0 +1,29 @@
+{
+    "name": "nucarf/trace-log",
+    "description": "nucarf trace log",
+    "type": "library",
+    "authors": [
+        {
+            "name": "lihongwei",
+            "email": "lihongwei@nucarf.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nucarf\\TraceLog\\": "src/TraceLog/"
+        },
+        "files": [
+            "src/TraceLog/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}

@@ -14,10 +14,7 @@
     "autoload": {
         "psr-4": {
             "Nucarf\\TraceLog\\": "src/TraceLog/"
-        },
-        "files": [
-            "src/TraceLog/functions.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
